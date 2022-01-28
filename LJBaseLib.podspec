@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "LJBaseLib"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "all kinds of categories for iOS develop"
   spec.description  = <<-DESC
 			this project provide all kinds of categories for iOS developer 
@@ -25,6 +25,8 @@ Pod::Spec.new do |spec|
 
 
   spec.requires_arc = true
+  
+  swift_versions   = "5.0"
 
 
 end
